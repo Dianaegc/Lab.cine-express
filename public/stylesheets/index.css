@@ -1,0 +1,19 @@
+
+a.button {
+    text-decoration: none;
+    color:rgb(65, 174, 225);
+    position: relative;
+}
+ body{
+     background-image: url("../stylesheets/cinema.jpg");
+     color: aliceblue;
+ }
+
+ .redondo{
+    display: block;
+    border-radius: 40px;
+    height: 30px;
+    border-color: transparent;
+
+  }
+

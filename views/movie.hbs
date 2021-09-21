@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+</head>
+<body>
+  <p><a id="link "href="/movies">Go back</a></p> 
+    <img src="{{this.image}}" alt=""/>
+    <h2>{{this.title}}</h2>
+    <h3> Director: {{this.director}}</h3>
+    <ul> 
+        <h5>Stars</h5>
+        {{#each this.stars}} 
+        <li>{{this}}</li>
+        {{/each}}
+        </ul>
+    {{this.description}}
+    <br>
+    {{this.showtimes}}
+</body>
+</html>
